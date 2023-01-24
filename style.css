@@ -283,3 +283,171 @@ body,
 .hide {
     opacity: 0.2; 
 }
+
+@media screen and (max-width: 768px) {
+    .line {
+        transform:  translate(0px, -15px);
+    }
+    h1.title {
+        font: 30px "Press Start 2P", cursive;
+        transform: translate(0px, 0px); 
+    }
+    p.subtitle {
+        font-size: 2.5vw;
+        transform: translate(0px, -10px);
+    }
+    button.buttonNewGame {
+        font: 20px "Press Start 2P", cursive;
+        height: 50px;
+        width: 280px;
+        position: absolute;
+        transform: translate(-240px, 250px); 
+    }
+    
+    #keyPressed {
+        transform: translate(-90px, -100px); 
+        font-size: 4vw;
+    }
+    
+    #category {
+        transform: translate(-10px, 90px); 
+    }
+    
+    div.dashes {
+        transform: translate(-10px, 110px); 
+        font-size: 4vw;
+        width: 50 px;
+        height: 50 px;
+    }
+    
+    div.wrongLetters {
+        transform: translate(-10px, 160px); 
+        font-size: 3vw;
+    }
+    
+    div.game {
+        transform: translate(100px, 100px); 
+    }
+    
+    body,
+    #trunks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #trunks {
+        position: relative;
+        left: -130px;
+    }
+    
+    .trunk-1,
+    .trunk-2,
+    .trunk-3{
+        width: 20px;
+    }
+    
+    .trunk-1 {
+        height: 150px;
+    }
+    
+    .trunk-2 {
+        height: 120px;
+        transform: rotate(90deg) translate(-85px, -30px);
+    }
+    
+    .trunk-3 {
+        height: 50px;
+        transform: rotate(90deg) translate(85px, 25px);
+    }
+    
+    #person,
+    .top-rope,
+    .middle-rope,
+    .bottom-rope,
+    .bottom-rope::before {
+        position: absolute;
+    }
+    
+    .top-rope {
+        width: 8px; 
+        height: 20px; 
+        top: -20px;
+        left: 170px; 
+    }
+    
+    .middle-rope {
+        width: 8px;
+        height: 30px; 
+        top: -1px;
+        left: 190px; 
+    }
+    
+    .bottom-rope {
+        width: 30px;
+        height: 20px;
+        top: 34px; 
+        left: 178px; 
+    }
+    
+    .head {
+        width: 30px;
+        height: 30px;
+        top: -125px;
+        left: 50px;
+    }
+    
+    
+    .eyes {
+        color: red;
+        top: -120px;
+        left: 70px; 
+    }
+    
+    .eye-2 {
+        left: 56px; 
+    }
+    
+    .person-body,
+    .right-arm,
+    .left-arm,
+    .right-leg,
+    .left-leg {
+        width: 5px;
+        border-radius: 10px;
+        top: -96px; 
+        
+    }
+    
+    .person-body {
+        height: 100px; 
+        left: 63px;  
+    }
+    
+    .right-arm,
+    .left-arm,
+    .right-leg,
+    .left-leg {
+        height: 60px; 
+        left: 63px;
+    }
+
+    .right-arm,
+    .left-arm{
+        top: -106px;
+    }
+    
+    .right-leg,
+    .left-leg {
+        top: -10px; 
+    }
+    
+    .right-arm, .right-leg {
+        transform: rotate(45deg) translate(-10px, 10px);
+    }
+    
+    .left-arm,
+    .left-leg {
+        transform: rotate(-45deg) translate(10px, 10px);
+    }
+}

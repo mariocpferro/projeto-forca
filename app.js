@@ -22,10 +22,10 @@ const numTentativas = 7;
 const opacidadeOlhos = 0.3;
 
 const categorias = {
-    frutas : ['ameixa', 'banana', 'caju', 'damasco', 'jabuticaba', 'laranja', 'melancia'],
-    profissoes : ['advogado', 'bancário', 'carteiro', 'desenvolvedor', 'engenheiro', 'juiz'],
-    cores : ['azul', 'branco', 'castanho', 'dourado', 'vermelho'],
-    animais: ['papagaio', 'galo', 'cachorro', 'cavalo', 'gato', 'girafa']
+    frutas : ['ameixa', 'banana', 'caju', 'damasco', 'jabuticaba', 'laranja', 'melancia', 'abacate', 'pitaya', 'morango', 'maca', 'amora'],
+    profissoes : ['advogado', 'bancário', 'carteiro', 'desenvolvedor', 'engenheiro', 'juiz', 'medico', 'pedreiro', 'enfermeiro'],
+    cores : ['azul', 'branco', 'castanho', 'dourado', 'vermelho', 'preto', 'verde', 'rosa', 'roxo', 'amarelo'],
+    animais: ['papagaio', 'galo', 'cachorro', 'cavalo', 'gato', 'girafa', 'hipopotamo', 'macaco', 'carneiro', 'lontra']
 }
 
 function retornaArrayCategorias() {

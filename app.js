@@ -23,9 +23,12 @@ const opacidadeOlhos = 0.3;
 
 const categorias = {
     frutas : ['ameixa', 'banana', 'caju', 'damasco', 'jabuticaba', 'laranja', 'melancia', 'abacate', 'pitaya', 'morango', 'maca', 'amora'],
-    profissoes : ['advogado', 'bancário', 'carteiro', 'desenvolvedor', 'engenheiro', 'juiz', 'medico', 'pedreiro', 'enfermeiro'],
+    profissoes : ['advogado', 'bancario', 'carteiro', 'desenvolvedor', 'engenheiro', 'juiz', 'medico', 'pedreiro', 'enfermeiro','cardiologista', 'contador', 'recepcionista', 'atriz'],
     cores : ['azul', 'branco', 'castanho', 'dourado', 'vermelho', 'preto', 'verde', 'rosa', 'roxo', 'amarelo'],
-    animais: ['papagaio', 'galo', 'cachorro', 'cavalo', 'gato', 'girafa', 'hipopotamo', 'macaco', 'carneiro', 'lontra']
+    animais: ['papagaio', 'galo', 'cachorro', 'cavalo', 'gato', 'girafa', 'hipopotamo', 'macaco', 'carneiro', 'lontra'],
+    cep : ['franca', 'roraima', 'goiania', 'goias', 'portugal', 'miami', 'orlando', 'macau', 'chile', 'hungria', 'suica', 'suecia'],
+    marca : ['apple', 'samsung', 'xiaomi', 'americanas', 'petrobras', 'ortobom', 'gucci', 'lamborghini', 'ferrari', 'nike', 'adidas'],
+    partes_do_corpo : ['pe', 'mao', 'cabeca', 'torax', 'pulmao', 'coracao', 'rim', 'faringe', 'laringe', 'radio', 'tibia', 'biceps', 'triceps', 'intestino', 'figado']
 }
 
 function retornaArrayCategorias() {
